@@ -1,0 +1,43 @@
+#obj_name
+{
+    width: 200px;
+    height: 40px;
+}
+
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px ;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(
+        90deg, 
+        rgba(2,0,36,1) 0%, 
+        rgba(16,85,5,1) 20%, 
+        rgba(9,9,121,1) 35%, rgba(98,130,177,1) 54%, 
+        rgba(216,49,145,1) 77%, 
+        rgba(0,212,255,1) 100%);
+}
+
+#start,#number_of_object, #status{
+    font-size: 18px;
+}
+
+.copyright_footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px white;
+}
